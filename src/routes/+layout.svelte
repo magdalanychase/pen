@@ -5,6 +5,7 @@
 </script>
 
 <svelte:head>
+    <title>Pen | Writing for work</title>
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
