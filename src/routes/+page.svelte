@@ -1,2 +1,2 @@
 <h1>Hello</h1>
-<p>Welcom to pen</p>
+<p>Welcome to Pen</p>
