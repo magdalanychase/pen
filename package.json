@@ -6,7 +6,7 @@
 	"scripts": {
 		"dev": "vite dev --open",
 		"build": "vite build",
-		"start": "bun .svelte-kit/output/server/index.js",
+		"start": "vite preview",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
