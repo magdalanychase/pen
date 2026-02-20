@@ -1,2 +1,2 @@
-<h1>Hello</h1>
+<h1>Pen is an app</h1>
 <p>Welcome to Pen</p>
