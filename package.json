@@ -4,10 +4,10 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
-		"dev": "bun --bun vite dev --open",
-		"build": "bun --vun vite build",
-		"start": "bun run build/index.js",
-		"preview": "bun --bun vite preview",
+		"dev": "bun --bun run vite dev --open",
+		"build": "bun --vun run vite build",
+		"start": "bun --bun run build/index.js",
+		"preview": "bun --bun run vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
@@ -18,6 +18,7 @@
 		"@sveltejs/kit": "^2.50.2",
 		"@sveltejs/vite-plugin-svelte": "^6.2.4",
 		"svelte": "^5.49.2",
+		"svelte-adapter-bun": "^1.0.1",
 		"svelte-check": "^4.3.6",
 		"typescript": "^5.9.3",
 		"vite": "^7.3.1"
