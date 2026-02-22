@@ -1,0 +1,54 @@
+html {
+    background-color: #1c1c1c;
+    color: #e5e5e5;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+p {
+    font-size: medium;
+}
+
+code {
+    background: #1a1a1a;
+    padding: 4px;
+    border: 1px solid #484848;
+    border-radius: 4px;
+}
+
+.text {
+    width: 800px;
+}
+
+.commandMenu {
+    background: #1c1c1c;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.commandMenu:popover-open {
+    display: flex;
+    flex-direction: column;
+}
+
+.commandMenu input {
+    background: none;
+    color: #e5e5e5;
+    font-size: medium;
+    border: none;
+    outline: none;
+}
+
+.commandMenu input::placeholder {
+    color: gray;
+}
