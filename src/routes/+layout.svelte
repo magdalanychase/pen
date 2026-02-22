@@ -43,7 +43,7 @@
 
 <svelte:window
 	onkeydown={(e) => {
-		if (e.altKey) {
+		if (e.altKey && e.key === "Alt") {
 			e.preventDefault();
 			commandMenu.togglePopover();
 			commandInput.focus();
